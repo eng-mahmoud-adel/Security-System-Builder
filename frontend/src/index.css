@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #f1f0fe;
+  --color-brand-100: #eef1fc;
+  --color-brand-500: #6c3ce0;
+  --color-brand-600: #5b21b6;
+  --color-brand-700: #4c1d95;
+
+  --color-ink-900: #111827;
+  --color-ink-700: #1f2937;
+  --color-ink-500: #6b7280;
+  --color-ink-400: #9ca3af;
+
+  --color-surface: #ffffff;
+  --color-surface-muted: #eef1fc;
+  --color-border: #e5e7eb;
+
+  --color-success: #0aa288;
+  --color-danger: #ef4444;
+  --color-link: #0000ff;
+
+  --color-step-divider: #1f1f1f;
+  --color-step-label: #484848;
+  --color-section-title: #0b0d10;
+  --color-product-title: #1f1f1f;
+  --color-badge: #4e2fd2;
+
+  --color-price-strike-step: #d8392b;
+  --color-price-actual-step: #575757;
+  --color-price-strike-review: #6f7882;
+  --color-price-actual-review: #4e2fd2;
+
+  --color-stepper-border: #f0f4f7;
+  --color-stepper-border-disabled: #e6ebf0;
+  --color-stepper-border-review: #ced6de;
+  --color-stepper-bg-disabled-review: #f1f1f2;
+
+  --radius-card: 10px;
+  --radius-button: 4px;
+  --radius-pill: 9999px;
+}
+
+body {
+  margin: 0;
+  background: var(--color-surface);
+  color: var(--color-ink-700);
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
